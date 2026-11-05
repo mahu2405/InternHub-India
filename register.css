@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.overall{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #c390f8, #8579f0);
+}
+.create{
+    height: 550px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+.logo{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.logo i,
+.logo span{
+    margin-left: 20px;
+    background: linear-gradient(#0f3fff, #ea00ff);
+    background-clip: text;
+    color: transparent;
+}
+.h2{
+    padding-top: 30px;
+}
+.p1{
+    padding-top: 20px;
+}
+input{
+    height: 30px;
+    width: 240px;
+    margin-top: 30px;
+}
+button{
+    margin-top: 30px;
+    height: 40px;
+    width: 90px;
+}
+.span{
+    color: blue;
+}
+.span:hover{
+    text-decoration: underline;
+}
+button + p{
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
